@@ -8,12 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3d614f9a58f6878",
+            "id": "9713a95ef08aa17d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel Sanctum.md",
+                "file": "0 - Updates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "479aeac064f12800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laravel/Migrations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "419f8f3bf012844b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Laravel/Seeders and Factories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8503993ee885b80d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel Sanctum.md",
+                "file": "0 - Updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel Sanctum.md",
+                "file": "0 - Updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel Sanctum.md"
+                "file": "0 - Updates.md"
               }
             }
           }
@@ -146,14 +182,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3d614f9a58f6878",
+  "active": "9713a95ef08aa17d",
   "lastOpenFiles": [
-    "Laravel Encountered Problems.md",
-    "Laravel Sanctum.md",
+    "Laravel/Migrations.md",
+    "Laravel/Sanctum.md",
+    "Laravel/Seeders and Factories.md",
+    "Github.md",
+    "0 - Updates.md",
     "Dockerizing a Project.md",
     "1 - Laravel.md",
+    "Laravel/Encountered Problems.md",
+    "2 - Docker.md",
+    "Untitled",
+    "Laravel",
     "2024-08-12.md",
-    "Untitled.canvas",
-    "2 - Docker.md"
+    "Untitled.canvas"
   ]
 }

@@ -9,7 +9,7 @@
 - Sanctum is installed by default when `# php artisan install:api` is invoked in newer versions of Laravel.
 
 
-#### How to use
-##### Prerequisites:
-- A User [[Model]], 
-- 
+
+
+
+

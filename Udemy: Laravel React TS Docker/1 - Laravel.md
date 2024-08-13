@@ -1,9 +1,9 @@
-If common problems were encountered, please refer to [[Laravel Encountered Problems]]
+If common problems were encountered, please refer to [[Encountered Problems]]
 #### Creating a new project
 `composer create-project --prefer-dist laravel/laravel <project-name>`
 
 #### [[Dockerizing a project]]
-#### [[Laravel Sanctum]]
+#### [[Sanctum]]
 
 
 #### Migrations
