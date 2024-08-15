@@ -9,7 +9,7 @@
 
 ###### `# php artisan migrate:fresh` 
 - Use this when there are new relationship errors when migrating.
-- DO NOT USE IN PROD, It will delete all data in the tables
+- **DO NOT USE IN PROD**, It will delete all data in the tables
 
 
 #### Examples:
@@ -68,3 +68,8 @@ Drops the foreign key `role_id` first then the column `role_id`
     }
 ```
 
+See next: [[Eloquent Relationships#Setting up relationships in Laravel Eloquent]]
+
+
+###### See also: 
+- [[Seeders and Factories]]

@@ -1,1 +1,0 @@
-	GIT_SSH_COMMAND="ssh -i /path/to/private_key"

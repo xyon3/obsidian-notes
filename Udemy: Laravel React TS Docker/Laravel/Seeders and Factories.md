@@ -16,6 +16,16 @@ class DatabaseSeeder extends Seeder {
 ```
 
 
+##### Creating Seeders
+`# php artisan make:seeder <SeederClassName>`
+
+##### Seeding
+`# php artisan db:seed`
+- this will seed all database tables
+
+`# php artisan db:seed --class=<SeederClassName>`
+- this will seed a specified table
+
 #### Factories
 `dir: database/factories`
 
@@ -35,4 +45,4 @@ class UserFactory extends Factory {
 ```
 
 ##### Creating factories
-- Invoke `# php artisan make:factory <FactoryName>`
+`# php artisan make:factory <FactoryName>`

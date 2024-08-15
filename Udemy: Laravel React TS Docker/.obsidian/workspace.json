@@ -6,6 +6,7 @@
       {
         "id": "21730bf447f27526",
         "type": "tabs",
+        "dimension": 71.44702842377261,
         "children": [
           {
             "id": "9713a95ef08aa17d",
@@ -13,43 +14,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 - Updates.md",
+                "file": "Laravel/Eloquent Relationships.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "479aeac064f12800",
+            "id": "1858783fbb167ce4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Migrations.md",
+                "file": "Laravel/Image Upload.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "2594531f9cafdce1",
+        "type": "tabs",
+        "dimension": 28.552971576227392,
+        "children": [
           {
             "id": "419f8f3bf012844b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Seeders and Factories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8503993ee885b80d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Github.md",
+                "file": "0 - MISC.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 - Updates.md",
+                "file": "Laravel/Image Upload.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0 - Updates.md",
+                "file": "Laravel/Image Upload.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 - Updates.md"
+                "file": "Laravel/Image Upload.md"
               }
             }
           }
@@ -182,17 +179,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9713a95ef08aa17d",
+  "active": "1858783fbb167ce4",
   "lastOpenFiles": [
-    "Laravel/Migrations.md",
     "Laravel/Sanctum.md",
-    "Laravel/Seeders and Factories.md",
-    "Github.md",
-    "0 - Updates.md",
-    "Dockerizing a Project.md",
-    "1 - Laravel.md",
+    "Laravel/Migrations.md",
     "Laravel/Encountered Problems.md",
+    "Laravel/Seeders and Factories.md",
+    "Laravel/Eloquent Relationships.md",
+    "Laravel/JSON Resources.md",
+    "0 - MISC.md",
+    "1 - Laravel.md",
     "2 - Docker.md",
+    "Laravel/Image Upload.md",
+    "Dockerizing a Project.md",
+    "Github.md",
     "Untitled",
     "Laravel",
     "2024-08-12.md",
