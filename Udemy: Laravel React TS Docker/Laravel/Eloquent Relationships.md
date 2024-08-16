@@ -42,3 +42,29 @@ class Role extends Model
     }
 }
 ```
+
+
+##### Eloquent Model Custom Attributes
+
+This allows the model to have specific attribute that is customized.
+
+###### Example
+
+
+This returns the full name. It can be accessed through `$this->name` or an instantiated object `$order->name`.
+```php
+    public function getNameAttribute() {
+        return $this->first_name . " " . $this->last_name;
+    }
+```
+
+
+This returns the total price of an order. It can be accessed through `$this->total_price` or an instantiated object `$order->total_price`.
+```php
+    public function getTotalPriceAttribute() {
+        return $this->orderItems->sum(
+	        fn (OrderItem $orderItem) 
+		        => $orderItem->quantity * $orderItem->price
+	    );
+    }
+```

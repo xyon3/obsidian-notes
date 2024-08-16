@@ -28,6 +28,13 @@
 - File Uploads
 
 
+#### 240816
+- Nested Seeders
+- Atrributes
+- Exporting CSV
+- Gates (Deauthorizing Routes)
+
+
 ## Github Extras
 
 GIT_SSH_COMMAND="ssh -i /path/to/private_key"
