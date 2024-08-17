@@ -16,6 +16,16 @@ class DatabaseSeeder extends Seeder {
 ```
 
 
+##### Creating Seeders
+`# php artisan make:seeder <SeederClassName>`
+
+##### Seeding
+`# php artisan db:seed`
+- this will seed all database tables
+
+`# php artisan db:seed --class=<SeederClassName>`
+- this will seed a specified table
+
 #### Factories
 `dir: database/factories`
 
@@ -35,4 +45,24 @@ class UserFactory extends Factory {
 ```
 
 ##### Creating factories
-- Invoke `# php artisan make:factory <FactoryName>`
+`# php artisan make:factory <FactoryName>`
+
+
+##### Nesting Factories
+
+There can be two factories in one seeder file. In this example where `Order` *hasMany* `OrderItem` seeds the `orders` first and `order_items` comes next.
+```php
+class OrderSeeder extends Seeder
+{
+    public function run(): void
+    {
+        Order::factory(30)->create()
+            ->each(function(Order $order){
+                OrderItem::factory(random_int(1, 5))->create([
+                    "order_id" => $order->id,
+                ]);
+            });
+    }
+}
+```
+
